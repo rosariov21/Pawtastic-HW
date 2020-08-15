@@ -325,22 +325,22 @@ render(){
              <input type="submit" id="nextButton" value="Next"/>
 
 
-           </label>
+             </label>
 
 
-         </div>
+</div>
 
 
-       </form>
+</form>
 
 
-     </div>
+</div>
 
 
-   );
+);
 
 
- }
+}
 
 
 
