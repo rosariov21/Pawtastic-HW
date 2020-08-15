@@ -245,27 +245,13 @@ render(){
 
 
              <input type="checkbox" id="toggle2" className="checkbox" onChange={this.handleChange}/> 
-
-
-             <div htmlFor="toggle2" className="switch">
-
-
-               <span>Spayed</span>
-
-
-               <span>Neutered</span>
-
-
-             </div>
-
-
-           </label>
-
-
-         </div>
-
-
-         <label> Weight <div className="row weightContainer">
+ <div htmlFor="toggle2" className="switch">
+ <span>Spayed</span>
+ <span>Neutered</span>
+ </div>
+ </label>
+ </div>
+  <label> Weight <div className="row weightContainer">
  <input type="radio" id="twentyfive" name="weight" value="0-25 lbs" onChange={this.handleWeight}/>
  <label htmlFor="twentyfive" className="weight">0-25 lbs</label>
  <input type="radio" id="fifty" name="weight" value="25-50 lbs" onChange={this.handleWeight}/>
@@ -284,26 +270,13 @@ render(){
 <label>   <input type="submit" id="nextButton" value="Next"/>
 
   </label>
-
-
 </div>
-
-
 </form>
-
-
 </div>
-
-
 );
 
 
 }
-
-
-
-
-
 
 }
 
