@@ -9,14 +9,14 @@ class Pawtastic extends Component  {
 
    super(props);
 
-
+//create objects here to make it easy{follow steps from form example in class to render the buttons }
    this.state={
  name:'',
  breed:'',
  birthday:new Date().toString(),
-    gender:'Male',
-    spayedOrNeutered:'Spayed',
-    weight:''
+gender:'Male',
+spayedOrNeutered:'Spayed',
+weight:''
 
 
    };
