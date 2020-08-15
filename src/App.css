@@ -78,3 +78,9 @@ h6{
     padding-right: 25px;
     padding-left: 25px;
   }
+
+  .weightContainer{
+    position: relative;
+    border-radius: 20px;
+    width: 150px;
+  }

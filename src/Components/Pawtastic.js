@@ -137,7 +137,7 @@ render(){
          <label>
 
 
-           Name
+           <h2>Name</h2>
 
 
            <input type="text" onChange={this.handleName} placeholder="Pet's name"/>
@@ -176,7 +176,7 @@ render(){
            <label>
 
 
-             Breed
+          <h2>Breed</h2>  
 
 
              <input type="text" placeholder="Pet's breed" onChange={this.handleBreed}/>
@@ -188,7 +188,7 @@ render(){
            <label>
 
 
-             Birthday
+            <h2>Birthday</h2> 
 
 
              <input type="date" onChange={this.handleBirthday}/>
@@ -206,7 +206,7 @@ render(){
            <label>
 
 
-             Gender
+             <h2>Gender</h2>
 
 
              <input type="checkbox" id="toggle" className="checkbox" onChange={this.handleGender}/> 
@@ -235,6 +235,7 @@ render(){
 
              <input type="checkbox" id="toggle2" className="checkbox" onChange={this.handleChange}/> 
  <div htmlFor="toggle2" className="switch">
+     
  <span>Spayed</span>
  <span>Neutered</span>
  </div>
