@@ -350,9 +350,4 @@ render(){
 }
 
 
-
-
-
-
-
 export default Pawtastic;
