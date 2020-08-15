@@ -46,4 +46,9 @@
  h1{
    text-align: center;
  }
- 
+
+ #nextbutton{
+   color: white;
+   background-color: tomato;
+   border-radius: 15px;
+ }
