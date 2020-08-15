@@ -52,3 +52,9 @@
    background-color: tomato;
    border-radius: 15px;
  }
+
+ switch{
+   background-color: thistle;
+   display: inline;
+   
+ }
