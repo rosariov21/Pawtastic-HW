@@ -73,3 +73,8 @@ h6{
   .checkbox:checked+.switch::after{
     left: 45%;
   }
+  span{
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
