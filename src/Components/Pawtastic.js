@@ -42,13 +42,8 @@ class Pawtastic extends Component  {
  }
 
  handleSubmit(event) {
-
-
-   event.preventDefault();
-
-
-   alert(`Dog info ${this.state.name} ${this.state.breed} ${this.state.birthday} ${this.state.gender} ${this.state.weight} ${this.state.spayedOrNeutered}`);
-
+ event.preventDefault();
+ alert(`Dog info ${this.state.name} ${this.state.breed} ${this.state.birthday} ${this.state.gender} ${this.state.weight} ${this.state.spayedOrNeutered}`);
 
  }
  handleBirthday(event){
@@ -60,117 +55,56 @@ class Pawtastic extends Component  {
 
 
  handleChange(event) {
-
-
-   console.log(event.target.value);
-
-
+console.log(event.target.value);
    if(this.state.spayedOrNeutered==="Spayed"){
 
-
      this.setState({spayedOrNeutered: "Neutered"});
-
-
    } else {
-
-
      this.setState({spayedOrNeutered: "Spayed"});
 
-
    }
 
-
  }
-
-
  handleWeight(event) {
-
-
-   this.setState({weight: event.target.value});
-
+ this.setState({weight: event.target.value});
 
  }
-
-
  handleName(event) {
-
-
-   this.setState({name: event.target.value});
-
-
- }
-
-
- handleBreed(event) {
-
-
-   this.setState({breed: event.target.value});
+this.setState({name: event.target.value});
 
 
  }
+handleBreed(event) {
+this.setState({breed: event.target.value});
 
 
- handleGender(){
-
-
-   if(this.state.gender==="Male"){
-
-
-     this.setState({gender: "Female"});
-
-
-   } else {
-
-
-     this.setState({gender: "Male"});
-
+ }
+handleGender(){
+if(this.state.gender==="Male"){
+ this.setState({gender: "Female"});
+ } else {
+ this.setState({gender: "Male"})
 
    }
-
-
  }
-
-
- render(){
+render(){
 
 
    return (
 
 
-     <div className="row" id="box">
-
-
+     <div className="makerow" id="box1">
        <div class="menu">
-
-
        <h1>Pawtastic</h1>
-
-
-       <div className="sideBar">
-
-
-         <input type="radio" name="radio" />
-
-
-         <div className="customRadio"></div>
-
-
-         <p>Human Profile</p>
-
-
-       </div>
-
-
-       <div className="sideBar">
-
-
-         <input type="radio" name="radio" checked readOnly/>
-
-
-         <div className="customRadio"></div>
-
-
-         <p>Pet basics</p>
+<div className="theside">
+ <input type="radio" name="radio" />
+ <div className="customRadio"></div>
+ <h6>Human Profile</h6>
+          </div>
+  <div className="sideBar">
+ <input type="radio" name="radio" checked readOnly/>
+  <div className="custRadio"></div>
+ <h6>Pet basics</p>
 
 
        </div>
