@@ -17,24 +17,16 @@ class Pawtastic extends Component  {
 gender:'Male',
 spayedOrNeutered:'Spayed',
 weight:''
-
-
    };
+   //easy way to use the buttons using handle method 
+this.handleName = this.handleName.bind(this);
 
-
-   this.handleName = this.handleName.bind(this);
-
-   this.handleBreed = this.handleBreed.bind(this);
-
-   this.handleChange = this.handleChange.bind(this);
-
-   this.handleBirthday = this.handleBirthday.bind(this);
-
-   this.handleWeight = this.handleWeight.bind(this);
-
-   this.handleGender = this.handleGender.bind(this);
-
-   this.handleSubmit = this.handleSubmit.bind(this);
+this.handleBreed = this.handleBreed.bind(this);
+ this.handleChange = this.handleChange.bind(this);
+this.handleBirthday = this.handleBirthday.bind(this);
+ this.handleWeight = this.handleWeight.bind(this);
+this.handleGender = this.handleGender.bind(this);
+ this.handleSubmit = this.handleSubmit.bind(this);
 
 
  }
