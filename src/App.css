@@ -30,3 +30,11 @@
    flex-direction: column;
    margin-bottom: 15px;
  }
+ label{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   width: 90px;
+ }
+
+ 
