@@ -11,11 +11,9 @@ class Pawtastic extends Component  {
 
 
    this.state={
-
-
-     name:'',
-     breed:'',
-     birthday:new Date().toString(),
+ name:'',
+ breed:'',
+ birthday:new Date().toString(),
     gender:'Male',
     spayedOrNeutered:'Spayed',
     weight:''
