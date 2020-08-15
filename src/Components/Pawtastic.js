@@ -265,67 +265,25 @@ render(){
          </div>
 
 
-         <label>
+         <label> Weight <div className="row weightContainer">
+ <input type="radio" id="twentyfive" name="weight" value="0-25 lbs" onChange={this.handleWeight}/>
+ <label htmlFor="twentyfive" className="weight">0-25 lbs</label>
+ <input type="radio" id="fifty" name="weight" value="25-50 lbs" onChange={this.handleWeight}/>
+ <label htmlFor="fifty" className="weight">25-50 lbs</label>
+ <input type="radio" id="seventyfive" name="weight" value="50-100 lbs" onChange={this.handleWeight}/>
+ <label htmlFor="seventyfive" className="weight">50-100 lbs</label>
+ <input type="radio" id="hundred" name="weight" value="100+ lbs" onChange={this.handleWeight}/>
+ <label htmlFor="hundred" className="weight">100+ lbs</label>
+ <div className="replacement"></div>
+ </div>
+  </label>
+ <div id="white" className="row">
+ <label>
+   <input type="button" id="backButton" value="Back"/>
+ </label>
+<label>   <input type="submit" id="nextButton" value="Next"/>
 
-
-           Weight
-
-
-           <div className="row weightContainer">
-
-
-             <input type="radio" id="twentyfive" name="weight" value="0-25 lbs" onChange={this.handleWeight}/>
-
-
-             <label htmlFor="twentyfive" className="weight">0-25 lbs</label>
-
-
-             <input type="radio" id="fifty" name="weight" value="25-50 lbs" onChange={this.handleWeight}/>
-
-
-             <label htmlFor="fifty" className="weight">25-50 lbs</label>
-
-
-             <input type="radio" id="seventyfive" name="weight" value="50-100 lbs" onChange={this.handleWeight}/>
-
-
-             <label htmlFor="seventyfive" className="weight">50-100 lbs</label>
-
-
-             <input type="radio" id="hundred" name="weight" value="100+ lbs" onChange={this.handleWeight}/>
-
-
-             <label htmlFor="hundred" className="weight">100+ lbs</label>
-
-
-             <div className="replacement"></div>
-
-
-           </div>
-
-
-         </label>
-
-
-         <div id="white" className="row">
-
-
-           <label>
-
-
-             <input type="button" id="backButton" value="Back"/>
-
-
-           </label>
-
-
-           <label>
-
-
-             <input type="submit" id="nextButton" value="Next"/>
-
-
-             </label>
+  </label>
 
 
 </div>
