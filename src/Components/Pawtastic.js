@@ -101,25 +101,15 @@ render(){
  <div className="customRadio"></div>
  <h6>Human Profile</h6>
           </div>
-  <div className="sideBar">
+  <div className="theside">
  <input type="radio" name="radio" checked readOnly/>
   <div className="custRadio"></div>
- <h6>Pet basics</p>
-
-
-       </div>
-
-
-       <div className="sideBar">
-
-
+ <h6>Pet basics</h6>
+   </div>
+  <div className="theside">
          <input type="radio" name="radio" />
-
-
-         <div className="customRadio"></div>
-
-
-         <p>Pet Details</p>
+  <div className="custRadio"></div>
+     <h6>Pet Details</h6>
 
 
        </div>
