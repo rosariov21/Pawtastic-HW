@@ -37,4 +37,9 @@
    width: 90px;
  }
 
- 
+ .menu{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   padding: 35px;
+ }
