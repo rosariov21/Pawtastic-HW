@@ -53,7 +53,6 @@ console.log(event.target.value);
      this.setState({spayedOrNeutered: "Spayed"});
 
    }
-
  }
  handleWeight(event) {
  this.setState({weight: event.target.value});

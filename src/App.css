@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
- .theside{
-
+ .theside input{
+   position: absolute;
+   cursor: pointer;
  }
